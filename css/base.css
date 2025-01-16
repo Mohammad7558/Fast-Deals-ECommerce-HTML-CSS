@@ -1,0 +1,44 @@
+/* ---------------------- default style start ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  /* colors */
+  --primaryColor: rgb(46, 107, 198);
+  --primaryText: #242424;
+  --secondaryText: #777;
+  /* font size */
+  --heading: 7.2rem;
+  --sectionHeading: 3.6rem;
+  --normalText: 1.6rem;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
+p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+/* ---------------------- default style end ---------------------- */
