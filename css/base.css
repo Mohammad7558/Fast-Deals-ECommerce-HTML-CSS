@@ -41,4 +41,13 @@ p {
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
+.container {
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.section-mt {
+  margin-top: 10rem;
+}
 /* ---------------------- default style end ---------------------- */
